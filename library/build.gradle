@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
+//./gradlew bintrayUpload
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'MediaPicker'
 
+    publishedGroupId = 'net.alhazmy13.MediaPicker'
+    libraryName = 'libary'
+
+    artifact = 'libary'
+
+    libraryDescription = 'Media Picker'
+
+    siteUrl = 'https://github.com/alhzmy13/MediaPicker'
+    gitUrl = 'https://github.com/alhzmy13/MediaPicker.git'
+
+    libraryVersion = '1.2.1'
+
+    developerId = 'alhazmy13'
+    developerName = 'Abdullah Alhazmy'
+    developerEmail = 'me@alhazmy13.net'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
@@ -23,7 +47,9 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:23.+'
+    compile 'com.android.support:appcompat-v7:23.1.1'
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
 }
+apply from: './bintrayv1.gradle'
+apply from: './installv1.gradle'

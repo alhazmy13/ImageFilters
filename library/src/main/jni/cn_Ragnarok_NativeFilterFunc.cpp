@@ -139,5 +139,5 @@ jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_gothamFilter(JN
 		jintArray pixels, jint width, jint height) {
 	jintArray result = PROC_IMAGE_WITHOUT_OPTIONS(env, pixels, width, height, GothamFilter);
 	return result;
-JNIEXPORT jintArray
+
 }
