@@ -1,9 +1,9 @@
-package net.alhazmy13.library.Filter;
+package net.alhazmy13.imagefilter;
 
 import android.graphics.Bitmap;
 
 
-public class ReliefFilter {
+class ReliefFilter {
 	
 	static {
 		System.loadLibrary("ImageFilter");

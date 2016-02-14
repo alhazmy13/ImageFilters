@@ -12,7 +12,7 @@ extern "C" {
  * Method:    lightFilter
  * Signature: ([IIIIII)[I
  */
-JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_lightFilter
+JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_lightFilter
   (JNIEnv *, jclass, jintArray, jint, jint, jint, jint, jint);
 
 /*
@@ -20,7 +20,7 @@ JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_l
  * Method:    lomoAddBlckRound
  * Signature: ([IIID)[I
  */
-JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_lomoAddBlckRound
+JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_lomoAddBlckRound
   (JNIEnv *, jclass, jintArray, jint, jint, jdouble);
 
 /*
@@ -28,7 +28,7 @@ JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_l
  * Method:    neonFilter
  * Signature: ([IIIIII)[I
  */
-JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_neonFilter
+JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_neonFilter
   (JNIEnv *, jclass, jintArray, jint, jint, jint, jint, jint);
 
 /*
@@ -36,7 +36,7 @@ JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_n
  * Method:    oilFilter
  * Signature: ([III)[I
  */
-JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_oilFilter
+JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_oilFilter
   (JNIEnv *, jclass, jintArray, jint, jint, jint);
 
 /*
@@ -44,7 +44,7 @@ JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_o
  * Method:    tvFilter
  * Signature: ([III)[I
  */
-JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_tvFilter
+JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_tvFilter
   (JNIEnv *, jclass, jintArray, jint, jint);
 
 /*
@@ -52,7 +52,7 @@ JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_t
  * Method:    averageSmooth
  * Signature: ([IIII)[I
  */
-JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_averageSmooth
+JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_averageSmooth
   (JNIEnv *, jclass, jintArray, jint, jint, jint);
 
 /*
@@ -60,7 +60,7 @@ JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_a
  * Method:    hdrFilter
  * Signature: ([III)[I
  */
-JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_hdrFilter
+JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_hdrFilter
   (JNIEnv *, jclass, jintArray, jint, jint);
 
 /*
@@ -68,7 +68,7 @@ JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_h
  * Method:    discreteGaussianBlur
  * Signature: ([IIID)[I
  */
-JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_discreteGaussianBlur
+JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_discreteGaussianBlur
   (JNIEnv *, jclass, jintArray, jint, jint, jdouble);
 
 /*
@@ -76,7 +76,7 @@ JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_d
  * Method:    softGlow
  * Signature: ([IIID)[I
  */
-JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_softGlow
+JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_softGlow
   (JNIEnv *, jclass, jintArray, jint, jint, jdouble);
 
 /*
@@ -84,7 +84,7 @@ JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_s
  * Method:    sketchFilter
  * Signature: ([III)[I
  */
-JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_sketchFilter
+JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_sketchFilter
   (JNIEnv *, jclass, jintArray, jint, jint);
 
 /*
@@ -92,7 +92,7 @@ JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_s
  * Method:    sharpenFilter
  * Signature: ([III)[I
  */
-JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_sharpenFilter
+JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_sharpenFilter
   (JNIEnv *, jclass, jintArray, jint, jint);
 
 /*
@@ -100,7 +100,7 @@ JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_s
  * Method:    reliefFilter
  * Signature: ([III)[I
  */
-JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_reliefFilter
+JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_reliefFilter
   (JNIEnv *, jclass, jintArray, jint, jint);
 
 /*
@@ -108,7 +108,7 @@ JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_r
  * Method:    pxelateFilter
  * Signature: ([IIII)[I
  */
-JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_pxelateFilter
+JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_pxelateFilter
   (JNIEnv *, jclass, jintArray, jint, jint, jint);
 
 /*
@@ -116,7 +116,7 @@ JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_p
  * Method:    blockFilter
  * Signature: ([III)[I
 
-JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_blockFilter
+JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_blockFilter
   (JNIEnv *, jclass, jintArray, jint, jint);
  */
 /*
@@ -124,7 +124,7 @@ JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_b
  * Method:    motionBlurFilter
  * Signature: ([IIIII)[I
  */
-JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_motionBlurFilter
+JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_motionBlurFilter
   (JNIEnv *, jclass, jintArray, jint, jint, jint, jint);
 
 /*
@@ -132,7 +132,7 @@ JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_m
  * Method:    gothamFilter
  * Signature: ([III)[I
  */
-JNIEXPORT jintArray JNICALL Java_net_alhazmy13_testndk_Filter_NativeFilterFunc_gothamFilter
+JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_gothamFilter
   (JNIEnv *, jclass, jintArray, jint, jint);
 
 #ifdef __cplusplus

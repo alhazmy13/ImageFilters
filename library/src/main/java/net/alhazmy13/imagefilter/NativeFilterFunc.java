@@ -1,6 +1,6 @@
-package net.alhazmy13.library.Filter;
+package net.alhazmy13.imagefilter;
 
-public class NativeFilterFunc {
+class NativeFilterFunc {
 	public static native int[] lightFilter(int[] pixels, int width, int height, int centerX, int centerY, int radius);
 	public static native int[] lomoAddBlckRound(int[] pixels, int width, int height, double roundRadius);
 	public static native int[] neonFilter(int[] pixels, int width, int height, int r, int g, int b);

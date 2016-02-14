@@ -1,8 +1,8 @@
-package net.alhazmy13.library.Filter;
+package net.alhazmy13.imagefilter;
 
 import android.graphics.Bitmap;
 
-public class NeonFilter {
+class NeonFilter {
 	
 	static {
 		System.loadLibrary("ImageFilter");

@@ -1,24 +1,20 @@
-package net.alhazmy13.library.Filter;
+package net.alhazmy13.imagefilter;
 
 import android.graphics.Bitmap;
 
-public class GaussianBlurFilter {
+class HDRFilter {
 	static {
 		System.loadLibrary("ImageFilter");
 	}
 	
-	public static Bitmap changeToGaussianBlur(Bitmap bitmap, double sigma) {
-		int ksize = (int) (sigma * 3 + 1);
-		if (ksize == 1) {
-			throw new IllegalArgumentException(String.format("sigma %f is too small", sigma));
-		}
+	public static Bitmap changeToHDR(Bitmap bitmap) {
 		int width = bitmap.getWidth();
 		int height = bitmap.getHeight();
 		
 		int[] pixels = new int[width * height];
 		bitmap.getPixels(pixels, 0, width, 0, 0, width, height);
+		int[] returnPixels = NativeFilterFunc.hdrFilter(pixels, width, height);
 		
-		int[] returnPixels = NativeFilterFunc.discreteGaussianBlur(pixels, width, height, sigma);
 		Bitmap returnBitmap = Bitmap.createBitmap(returnPixels, width, height, Bitmap.Config.ARGB_8888);
 		
 		return returnBitmap;

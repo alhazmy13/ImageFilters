@@ -1,9 +1,9 @@
-package net.alhazmy13.library.Filter;
+package net.alhazmy13.imagefilter;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;
 
-public class OldFilter {
+class OldFilter {
 	
 	public static Bitmap changeToOld(Bitmap bitmap) {
 		

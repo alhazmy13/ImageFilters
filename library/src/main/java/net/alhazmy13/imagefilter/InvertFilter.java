@@ -1,9 +1,9 @@
-package net.alhazmy13.library.Filter;
+package net.alhazmy13.imagefilter;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;
 
-public class InvertFilter {
+class InvertFilter {
 
 	public static Bitmap chageToInvert(Bitmap bitmap) {
 		int width = bitmap.getWidth();

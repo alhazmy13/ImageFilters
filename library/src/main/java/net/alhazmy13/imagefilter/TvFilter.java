@@ -1,8 +1,8 @@
-package net.alhazmy13.library.Filter;
+package net.alhazmy13.imagefilter;
 
 import android.graphics.Bitmap;
 
-public class TvFilter {
+class TvFilter {
 	
 	static {
 		System.loadLibrary("ImageFilter");

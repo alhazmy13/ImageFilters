@@ -1,8 +1,8 @@
-package net.alhazmy13.library.Filter;
+package net.alhazmy13.imagefilter;
 
 import android.graphics.Bitmap;
 
-public class SharpenFilter {
+class SharpenFilter {
 	
 	static {
 		System.loadLibrary("ImageFilter");
