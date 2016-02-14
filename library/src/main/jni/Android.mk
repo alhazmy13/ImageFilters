@@ -1,11 +1,3 @@
-/*
- *
- *  Written by Alhazmy13  <http://alhazmy13.net>, 2016/2
- *
- *  This file is part of ImageFilter
- *  Licensed under the Apache License, Version 2.0
- *
- */
 #
 
 TARGET_PLATFORM := android-19
@@ -16,7 +8,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE   := ImageFilter
 
-LOCAL_SRC_FILES := cn_Ragnarok_NativeFilterFunc.cpp \
+LOCAL_SRC_FILES := nativ_FilterFunc.cpp \
 					AverageSmoothFilter.cpp \
 					GaussianBlurFilter.cpp \
 					HDRFilter.cpp \

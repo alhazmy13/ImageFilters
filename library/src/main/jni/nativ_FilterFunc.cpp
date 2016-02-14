@@ -7,7 +7,7 @@
  *
  */
 
-#include "cn_Ragnarok_NativeFilterFunc.h"
+#include "nativ_FilterFunc.h"
 
 #include "Util.h"
 #include "NeonFilter.h"

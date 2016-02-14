@@ -10,7 +10,6 @@
 package net.alhazmy13.imagefilter;
 
 import android.graphics.Bitmap;
-import android.util.Log;
 
 public class ImageFilter {
 	private static final String TAG = "ImageFilter";
@@ -23,9 +22,7 @@ public class ImageFilter {
 		SKETCH(17),MOTION_BLUR(18),GOTHAM(19);
 
 		private final int value;
-
 		Filter(int value){
-
 			this.value = value;
 		}
 
@@ -36,7 +33,6 @@ public class ImageFilter {
 
 
 	public static Bitmap applyFilter(Bitmap bitmap, Filter filter, Object... options) {
-		Log.d(TAG, "applyFilter() ImageFilter: " + "bitmap = [" + bitmap + "], filter = [" + filter + "], options = [" + options + "]");
 		switch (filter){
 			case GRAY:
 				
