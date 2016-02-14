@@ -1,8 +1,10 @@
 /*
- * NeonFilter.h
  *
- *  Created on: 2013-2-9
- *      Author: ragnarok
+ *  Written by Alhazmy13  <http://alhazmy13.net>, 2016/2
+ *
+ *  This file is part of ImageFilter
+ *  Licensed under the Apache License, Version 2.0
+ *
  */
 
 #ifndef NEONFILTER_H_

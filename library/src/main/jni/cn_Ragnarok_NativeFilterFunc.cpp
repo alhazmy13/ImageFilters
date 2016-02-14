@@ -1,9 +1,10 @@
 /*
-
- * cn_Ragnarok_NativeFilterFunc.cpp
  *
- *  Created on: 2013-2-9
- *      Author: ragnarok
+ *  Written by Alhazmy13  <http://alhazmy13.net>, 2016/2
+ *
+ *  This file is part of ImageFilter
+ *  Licensed under the Apache License, Version 2.0
+ *
  */
 
 #include "cn_Ragnarok_NativeFilterFunc.h"
@@ -26,7 +27,7 @@
 #include "MotionBlurFilter.h"
 #include "GothamFilter.h"
 
-jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_lightFilter(JNIEnv* env,
+jintArray Java_net_alhazmy13_imagefilter_NativeFilterFunc_lightFilter(JNIEnv* env,
 		jclass object, jintArray pixels, jint width, jint height, jint centerX, jint centerY, jint radius) {
 
 	LightFilterOptions options(centerX, centerY, radius);
@@ -34,7 +35,7 @@ jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_lightFilter(JNI
 	return result;
 }
 
-jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_lomoAddBlckRound(JNIEnv* env,
+jintArray Java_net_alhazmy13_imagefilter_NativeFilterFunc_lomoAddBlckRound(JNIEnv* env,
 		jclass object, jintArray pixels, jint width, jint height, jdouble roundRadius) {
 
 	BlackRoundOptions options(roundRadius);
@@ -42,7 +43,7 @@ jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_lomoAddBlckRoun
 	return result;
 }
 
-jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_neonFilter(JNIEnv* env,
+jintArray Java_net_alhazmy13_imagefilter_NativeFilterFunc_neonFilter(JNIEnv* env,
 		jclass object, jintArray pixels, jint width, jint height, jint r, jint g, jint b) {
 
 	NeonFilterOptions options(r, g, b);
@@ -50,7 +51,7 @@ jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_neonFilter(JNIE
 	return result;
 }
 
-jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_oilFilter(JNIEnv* env,
+jintArray Java_net_alhazmy13_imagefilter_NativeFilterFunc_oilFilter(JNIEnv* env,
 		jclass object, jintArray pixels, jint width, jint height, jint oilRange) {
 
 	OilFilterOptions options(oilRange);
@@ -59,13 +60,13 @@ jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_oilFilter(JNIEn
 	return result;
 }
 
-jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_tvFilter(JNIEnv* env, jclass object,
+jintArray Java_net_alhazmy13_imagefilter_NativeFilterFunc_tvFilter(JNIEnv* env, jclass object,
 		jintArray pixels, jint width, jint height) {
 	jintArray result = PROC_IMAGE_WITHOUT_OPTIONS(env, pixels, width, height, TvFilter);
 	return result;
 }
 
-jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_averageSmooth(JNIEnv* env,
+jintArray Java_net_alhazmy13_imagefilter_NativeFilterFunc_averageSmooth(JNIEnv* env,
 		jclass object, jintArray pixels, jint width, jint height, jint maskSize) {
 
 	AverageSmoothOptions options(maskSize);
@@ -73,13 +74,13 @@ jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_averageSmooth(J
 	return result;
 }
 
-jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_hdrFilter(JNIEnv* env, jclass object,
+jintArray Java_net_alhazmy13_imagefilter_NativeFilterFunc_hdrFilter(JNIEnv* env, jclass object,
 		jintArray pixels, jint width, jint height) {
 	jintArray result = PROC_IMAGE_WITHOUT_OPTIONS(env, pixels, width, height, HDRFilter);
 	return result;
 }
 
-jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_discreteGaussianBlur(JNIEnv* env,
+jintArray Java_net_alhazmy13_imagefilter_NativeFilterFunc_discreteGaussianBlur(JNIEnv* env,
 		jclass object, jintArray pixels, jint width, jint height, jdouble sigma) {
 
 	GaussianBlurOptions options(sigma);
@@ -87,7 +88,7 @@ jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_discreteGaussia
 	return result;
 }
 
-jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_softGlow(JNIEnv* env, jclass object,
+jintArray Java_net_alhazmy13_imagefilter_NativeFilterFunc_softGlow(JNIEnv* env, jclass object,
 		jintArray pixels, jint width, jint height, jdouble blurSigma) {
 
 	SoftGlowOptions options(blurSigma);
@@ -96,48 +97,47 @@ jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_softGlow(JNIEnv
 	return result;
 }
 
-jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_sketchFilter(JNIEnv* env, jclass object,
+jintArray Java_net_alhazmy13_imagefilter_NativeFilterFunc_sketchFilter(JNIEnv* env, jclass object,
 		jintArray pixels, jint width, jint height) {
 	jintArray result = PROC_IMAGE_WITHOUT_OPTIONS(env, pixels, width, height, SketchFilter);
 
 	return result;
 }
 
-jintArray JNICALL Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_sharpenFilter(JNIEnv *env, jclass object,
+jintArray JNICALL Java_net_alhazmy13_imagefilter_NativeFilterFunc_sharpenFilter(JNIEnv *env, jclass object,
 		jintArray pixels, jint width, jint height) {
 	jintArray result = PROC_IMAGE_WITHOUT_OPTIONS(env, pixels, width, height, SharpenFilter);
 	return result;
 }
 
-jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_reliefFilter(JNIEnv* env, jclass object,
+jintArray Java_net_alhazmy13_imagefilter_NativeFilterFunc_reliefFilter(JNIEnv* env, jclass object,
 		jintArray pixels, jint width, jint height) {
 	jintArray result = PROC_IMAGE_WITHOUT_OPTIONS(env, pixels, width, height, ReliefFilter);
 	return result;
 }
 
-jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_pxelateFilter(JNIEnv* env, jclass object,
+jintArray Java_net_alhazmy13_imagefilter_NativeFilterFunc_pxelateFilter(JNIEnv* env, jclass object,
 		jintArray pixels, jint width, jint height, jint pixelSize) {
 	PixelateOptions options(pixelSize);
 	jintArray result = PROC_IMAGE_WITH_OPTIONS(env, pixels, width, height, PixelateFilter, options);
 	return result;
 }
 
-jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_blockFilter(JNIEnv* env, jclass object,
+jintArray Java_net_alhazmy13_imagefilter_NativeFilterFunc_blockFilter(JNIEnv* env, jclass object,
 		jintArray pixels, jint width, jint height) {
 	jintArray result = PROC_IMAGE_WITHOUT_OPTIONS(env, pixels, width, height, BlockFilter);
 	return result;
 }
 
-jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_motionBlurFilter(JNIEnv* env, jclass,
+jintArray Java_net_alhazmy13_imagefilter_NativeFilterFunc_motionBlurFilter(JNIEnv* env, jclass,
 		jintArray pixels, jint width, jint height, jint xSpeed, jint ySpeed) {
 	MotionBlurFilterOpitons options(xSpeed, ySpeed);
 	jintArray result = PROC_IMAGE_WITH_OPTIONS(env, pixels, width, height, MotionBlurFilter, options);
 	return result;
 }
 
-jintArray Java_net_alhazmy13_imagefilter_Filter_NativeFilterFunc_gothamFilter(JNIEnv* env, jclass object,
+jintArray Java_net_alhazmy13_imagefilter_NativeFilterFunc_gothamFilter(JNIEnv* env, jclass object,
 		jintArray pixels, jint width, jint height) {
 	jintArray result = PROC_IMAGE_WITHOUT_OPTIONS(env, pixels, width, height, GothamFilter);
 	return result;
-
 }

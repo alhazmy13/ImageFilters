@@ -1,8 +1,19 @@
+/*
+ *
+ *  Written by Alhazmy13  <alhazmy13.net>, 2016/2
+ *
+ *  ImageFilter.java / ImageFilter is part of ImageFilter
+ *  Licensed under the Apache License, Version 2.0
+ * /
+ */
+
 package net.alhazmy13.imagefilter;
 
 import android.graphics.Bitmap;
+import android.util.Log;
 
 public class ImageFilter {
+	private static final String TAG = "ImageFilter";
 	public enum Filter{
 		GRAY (1),RELIEF(2),AVERAGE_BLUR(3),
 		OIL(4),NEON(5),PIXELATE(6),
@@ -25,8 +36,10 @@ public class ImageFilter {
 
 
 	public static Bitmap applyFilter(Bitmap bitmap, Filter filter, Object... options) {
+		Log.d(TAG, "applyFilter() ImageFilter: " + "bitmap = [" + bitmap + "], filter = [" + filter + "], options = [" + options + "]");
 		switch (filter){
 			case GRAY:
+				
 				return GrayFilter.changeToGray(bitmap);
 			case RELIEF:
 				return ReliefFilter.changeToRelief(bitmap);
@@ -95,9 +108,8 @@ public class ImageFilter {
 				return MotionBlurFilter.changeToMotionBlur(bitmap, (Integer)options[0], (Integer)options[1]);
 			case GOTHAM:
 				return GothamFilter.changeToGotham(bitmap);
-			default:
-				return bitmap;
 		}
+		return bitmap;
 	}
 
 }

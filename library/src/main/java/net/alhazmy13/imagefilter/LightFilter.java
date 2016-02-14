@@ -1,3 +1,13 @@
+
+/*
+ *
+ *  Written by Alhazmy13  <alhazmy13.net>, 2016/2
+ *
+ *  LightFilter.java / LightFilter is part of ImageFilter
+ *  Licensed under the Apache License, Version 2.0
+ *
+ */
+
 package net.alhazmy13.imagefilter;
 
 import android.graphics.Bitmap;

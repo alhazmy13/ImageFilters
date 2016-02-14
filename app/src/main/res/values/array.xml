@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="style">
+        <item>Select one :</item>
+         <item>gray</item>
+        <item>relief</item>
+        <item>average blur</item>
+        <item>oil painting</item>
+        <item>neon</item>
+        <item>pixelate</item>
+        <item>Old TV</item>
+        <item>invert the colors</item>
+        <item>engraving</item>
+        <item>old photo</item>
+        <item>sharpen</item>
+        <item>light</item>
+        <item>Lomo</item>
+        <item>HDR</item>
+        <item>gaussian blur</item>
+        <item>soft glow</item>
+        <item>sketch style</item>
+        <item>Motion blur</item>
+        <item>Gotham style</item>
+    </string-array>
+</resources>
