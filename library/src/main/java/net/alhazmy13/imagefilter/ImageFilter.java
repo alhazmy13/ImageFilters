@@ -40,7 +40,7 @@ public class ImageFilter {
 			case RELIEF:
 				return ReliefFilter.changeToRelief(bitmap);
 			case AVERAGE_BLUR:
-				if (options.length < 1) {
+				if (options.length < 1 || (Integer)options[0]%2==0) {
 					return BlurFilter.changeToAverageBlur(bitmap, 5);
 				}
 				return BlurFilter.changeToAverageBlur(bitmap, (Integer)options[0]); // maskSize

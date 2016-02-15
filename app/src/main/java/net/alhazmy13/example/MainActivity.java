@@ -17,6 +17,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.Spinner;
+import android.widget.TextView;
+
 import net.alhazmy13.imagefilter.ImageFilter;
 
 
@@ -24,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private Bitmap bitmap;
     private ImageView originalImage,filteredImage;
     private Spinner filterSpiner;
+    private String currentDate;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,13 +35,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
 
     private void initView() {
+
         originalImage = (ImageView) findViewById(R.id.originalImageView);
         filteredImage = (ImageView) findViewById(R.id.filteredImageView);
         filterSpiner = (Spinner) findViewById(R.id.filtersSpiner);
         bitmap = BitmapFactory.decodeResource(getResources(),R.drawable.image);
         originalImage.setImageBitmap(bitmap);
-        filteredImage.setImageBitmap(ImageFilter.applyFilter(bitmap, ImageFilter.Filter.GRAY));
+        filteredImage.setImageBitmap(ImageFilter.applyFilter(bitmap, ImageFilter.Filter.AVERAGE_BLUR));
         filterSpiner.setOnItemSelectedListener(this);
+
 
     }
 
@@ -49,13 +54,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case 2:
                 return ImageFilter.applyFilter(bitmap, ImageFilter.Filter.RELIEF);
             case 3:
-                return ImageFilter.applyFilter(bitmap, ImageFilter.Filter.AVERAGE_BLUR,4);
+                return ImageFilter.applyFilter(bitmap, ImageFilter.Filter.AVERAGE_BLUR,9);
             case 4:
-                return ImageFilter.applyFilter(bitmap, ImageFilter.Filter.OIL,3);
+                return ImageFilter.applyFilter(bitmap, ImageFilter.Filter.OIL,10);
             case 5:
                 return ImageFilter.applyFilter(bitmap, ImageFilter.Filter.NEON,200, 50, 100);
             case 6:
-                return ImageFilter.applyFilter(bitmap, ImageFilter.Filter.PIXELATE,6);
+                return ImageFilter.applyFilter(bitmap, ImageFilter.Filter.PIXELATE,9);
             case 7:
                 return ImageFilter.applyFilter(bitmap, ImageFilter.Filter.TV);
             case 8:

@@ -2,15 +2,15 @@
 <resources>
     <string-array name="style">
         <item>Select one :</item>
-         <item>gray</item>
-        <item>relief</item>
-        <item>average blur</item>
-        <item>oil painting</item>
-        <item>neon</item>
-        <item>pixelate</item>
+         <item>Gray</item>
+        <item>Relief</item>
+        <item>Average blur</item>
+        <item>Oil painting</item>
+        <item>Neon</item>
+        <item>Pixelate</item>
         <item>Old TV</item>
-        <item>invert the colors</item>
-        <item>engraving</item>
+        <item>Invert the colors</item>
+        <item>Block</item>
         <item>old photo</item>
         <item>sharpen</item>
         <item>light</item>

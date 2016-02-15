@@ -2,19 +2,19 @@ apply plugin: 'com.android.library'
 //./gradlew bintrayUpload
 ext {
     bintrayRepo = 'maven'
-    bintrayName = 'MediaPicker'
+    bintrayName = 'ImageFilters'
 
-    publishedGroupId = 'net.alhazmy13.ImageFilter'
+    publishedGroupId = 'net.alhazmy13.ImageFilters'
     libraryName = 'library'
 
     artifact = 'library'
 
-    libraryDescription = 'Image Filter'
+    libraryDescription = 'Image Filters'
 
-    siteUrl = 'https://github.com/alhzmy13/ImageFilter'
-    gitUrl = 'https://github.com/alhzmy13/ImageFilter.git'
+    siteUrl = 'https://github.com/alhzmy13/ImageFilters'
+    gitUrl = 'https://github.com/alhzmy13/ImageFilters.git'
 
-    libraryVersion = '0.1.0-beta'
+    libraryVersion = '0.1.1-beta'
 
     developerId = 'alhazmy13'
     developerName = 'Abdullah Alhazmy'
