@@ -114,7 +114,7 @@ ImageFilter.applyFilter(bitmap, ImageFilter.Filter.BLOCK);
 ### OLD
 <p align="left">
   <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/13037707/0cafb996-d398-11e5-9610-48467208441b.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037798/d89c4fbe-d399-11e5-978a-098ac7b80215.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.OLD);
@@ -122,7 +122,7 @@ ImageFilter.applyFilter(bitmap, ImageFilter.Filter.OLD);
 ### SHARPEN
 <p align="left">
   <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/13037707/0cafb996-d398-11e5-9610-48467208441b.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037797/d843dd8e-d399-11e5-96ad-8f015793752c.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.SHARPEN);
