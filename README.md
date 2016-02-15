@@ -36,11 +36,11 @@ All you need is to pass a `Bitmap` obejct and the filter type
 ```java
        ImageFilter.applyFilter(bitmap, ImageFilter.Filter.GOTHAM);
 ```
-
 ## Filter types
 ### Gray
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037677/6060dfe4-d397-11e5-8d50-0cf960914a8b.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.GRAY);
@@ -48,7 +48,8 @@ ImageFilter.applyFilter(bitmap, ImageFilter.Filter.GRAY);
 
 ### Relief
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037676/605da3c4-d397-11e5-93cb-22a4895e59e2.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.RELIEF);
@@ -56,14 +57,16 @@ ImageFilter.applyFilter(bitmap, ImageFilter.Filter.RELIEF);
 
 ### Average blur
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037675/5fd4acd6-d397-11e5-8225-f8ed2d3ce7b0.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.AVERAGE_BLUR);
 ```
 ### OIL
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037674/5fd450ba-d397-11e5-8111-5043016a2881.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.OIL);
