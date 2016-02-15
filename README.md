@@ -195,8 +195,8 @@ ImageFilter.applyFilter(bitmap, ImageFilter.Filter.GOTHAM);
 
 ## Credits 
 * [Jhlabs](http://www.jhlabs.com/ip/filters/)  
-* [NDK Image Filters](https://github.com/ragnraok/android-image-filter).
-
+* [NDK Image Filters](https://github.com/ragnraok/android-image-filter)
+* [OpenCV](http://docs.opencv.org/2.4/modules/imgproc/doc/filtering.html)
 
 ## License
 ------ 
