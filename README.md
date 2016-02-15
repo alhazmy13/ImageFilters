@@ -1,5 +1,5 @@
-<p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="600">
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037638/90bc848c-d396-11e5-98d0-572a3e902576.png">
 </p>
 # Image Filter
 ![](https://img.shields.io/badge/Platform-Android-brightgreen.svg)
