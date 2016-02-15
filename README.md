@@ -16,7 +16,7 @@ You can report any issue on issues page. **Note: If you speak Arabic, you can su
 **Maven**
 ```xml
 <dependency>
-<groupId>net.alhazmy13.ImageFilter</groupId>
+<groupId>net.alhazmy13.ImageFilters</groupId>
 <artifactId>library</artifactId>
 <version>0.1.1-beta</version>
 </dependency>
@@ -26,7 +26,7 @@ You can report any issue on issues page. **Note: If you speak Arabic, you can su
 **Gradle**
 ```gradle
 dependencies {
-	compile 'net.alhazmy13.ImageFilter:libary:0.1.1-beta'
+	compile 'net.alhazmy13.ImageFilters:libary:0.1.1-beta'
 }
 ```
 
