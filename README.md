@@ -4,7 +4,7 @@
 # Image Filters
 ![](https://img.shields.io/badge/Platform-Android-brightgreen.svg)
 ![](https://img.shields.io/crates/l/rustc-serialize.svg)
-![](https://img.shields.io/badge/version-0.1.0_beta-blue.svg)
+![](https://img.shields.io/badge/version-0.1.1_beta-blue.svg)
 
 ------ 
 Image Filter is an Android Libary that lets you to Filtering any image.
@@ -18,7 +18,7 @@ You can report any issue on issues page. **Note: If you speak Arabic, you can su
 <dependency>
 <groupId>net.alhazmy13.ImageFilter</groupId>
 <artifactId>library</artifactId>
-<version>0.1.0-beta</version>
+<version>0.1.1-beta</version>
 </dependency>
 ```
 
@@ -26,7 +26,7 @@ You can report any issue on issues page. **Note: If you speak Arabic, you can su
 **Gradle**
 ```gradle
 dependencies {
-	compile 'net.alhazmy13.ImageFilter:libary:0.1.0-beta'
+	compile 'net.alhazmy13.ImageFilter:libary:0.1.1-beta'
 }
 ```
 
