@@ -193,6 +193,11 @@ ImageFilter.applyFilter(bitmap, ImageFilter.Filter.MOTION_BLUR);
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.GOTHAM);
 ```
 
+## Credits 
+* [Jhlabs](http://www.jhlabs.com/ip/filters/)  
+* [NDK Image Filters](https://github.com/ragnraok/android-image-filter).
+
+
 ## License
 ------ 
     Copyright 2015 alhazmy
