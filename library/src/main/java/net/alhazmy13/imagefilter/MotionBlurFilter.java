@@ -21,7 +21,7 @@ class MotionBlurFilter {
 		int width = bitmap.getWidth();
 		int height = bitmap.getHeight();
 		
-		int[] pixels = new int[width * height];
+		int[] pixels = new int[width * height]; //width , height
 		bitmap.getPixels(pixels, 0, width, 0, 0, width, height);
 		
 		int[] returnPixels = NativeFilterFunc.motionBlurFilter(pixels, width, height, xSpeed, ySpeed);
