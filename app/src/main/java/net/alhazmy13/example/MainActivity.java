@@ -17,6 +17,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.Spinner;
+import android.widget.TextView;
+
 import net.alhazmy13.imagefilter.ImageFilter;
 
 
@@ -24,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private Bitmap bitmap;
     private ImageView originalImage,filteredImage;
     private Spinner filterSpiner;
+    private String currentDate;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
 
     private void initView() {
+
         originalImage = (ImageView) findViewById(R.id.originalImageView);
         filteredImage = (ImageView) findViewById(R.id.filteredImageView);
         filterSpiner = (Spinner) findViewById(R.id.filtersSpiner);
@@ -39,6 +43,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         originalImage.setImageBitmap(bitmap);
         filteredImage.setImageBitmap(ImageFilter.applyFilter(bitmap, ImageFilter.Filter.AVERAGE_BLUR));
         filterSpiner.setOnItemSelectedListener(this);
+
 
     }
 

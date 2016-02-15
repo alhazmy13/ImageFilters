@@ -14,7 +14,7 @@ ext {
     siteUrl = 'https://github.com/alhzmy13/ImageFilters'
     gitUrl = 'https://github.com/alhzmy13/ImageFilters.git'
 
-    libraryVersion = '0.1.0-beta'
+    libraryVersion = '0.1.1-beta'
 
     developerId = 'alhazmy13'
     developerName = 'Abdullah Alhazmy'
