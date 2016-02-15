@@ -58,7 +58,7 @@ ImageFilter.applyFilter(bitmap, ImageFilter.Filter.RELIEF);
 ### Average blur
 <p align="left">
   <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/13037675/5fd4acd6-d397-11e5-8225-f8ed2d3ce7b0.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037708/0cb05126-d398-11e5-9b70-09cc415ac791.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.AVERAGE_BLUR);
@@ -66,105 +66,119 @@ ImageFilter.applyFilter(bitmap, ImageFilter.Filter.AVERAGE_BLUR);
 ### OIL
 <p align="left">
   <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/13037674/5fd450ba-d397-11e5-8111-5043016a2881.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037707/0cafb996-d398-11e5-9610-48467208441b.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.OIL);
 ```
 ### NEON
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037747/b98cf624-d398-11e5-8b46-88bd6b85ddf4.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.NEON);
 ```
 ### PIXELATE
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037748/b9958280-d398-11e5-9152-da23c247d87c.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.PIXELATE);
 ```
 ### TV
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037746/b98875ae-d398-11e5-8c10-421667e3a624.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.TV);
 ```
-### INVERT
+### Invert Color
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037744/b929e188-d398-11e5-9064-da0939ae1f77.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.INVERT);
 ```
-### BLOCK
+### Block
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037745/b9855cd4-d398-11e5-8369-62544c531134.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.BLOCK);
 ```
 ### OLD
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037707/0cafb996-d398-11e5-9610-48467208441b.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.OLD);
 ```
 ### SHARPEN
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037707/0cafb996-d398-11e5-9610-48467208441b.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.SHARPEN);
 ```
 ### LIGHT
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037707/0cafb996-d398-11e5-9610-48467208441b.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.LIGHT);
 ```
 ### LOMO
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037707/0cafb996-d398-11e5-9610-48467208441b.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.LOMO);
 ```
 ### HDR
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037707/0cafb996-d398-11e5-9610-48467208441b.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.HDR);
 ```
 ### GAUSSIAN_BLUR
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037707/0cafb996-d398-11e5-9610-48467208441b.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.GAUSSIAN_BLUR);
 ```
 ### SOFT_GLOW
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037707/0cafb996-d398-11e5-9610-48467208441b.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.SOFT_GLOW);
 ```
 ### SKETCH
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037707/0cafb996-d398-11e5-9610-48467208441b.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.SKETCH);
 ```
 ### MOTION_BLUR
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037707/0cafb996-d398-11e5-9610-48467208441b.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.MOTION_BLUR);
@@ -172,7 +186,8 @@ ImageFilter.applyFilter(bitmap, ImageFilter.Filter.MOTION_BLUR);
 
 ### GOTHAM
 <p align="left">
-  <img src="https://cloud.githubusercontent.com/assets/4659608/12700433/4276edc0-c7f3-11e5-9f2c-de6bcbb9416d.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037688/af70d198-d397-11e5-824b-17fc4035ac80.png" width="200">
+  <img src="https://cloud.githubusercontent.com/assets/4659608/13037707/0cafb996-d398-11e5-9610-48467208441b.png" width="200">
 </p>
 ```java
 ImageFilter.applyFilter(bitmap, ImageFilter.Filter.GOTHAM);
