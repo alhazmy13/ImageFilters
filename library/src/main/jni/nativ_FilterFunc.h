@@ -123,10 +123,10 @@ JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_NativeFilterFunc_pxel
  * Class:     cn_Ragnarok_NativeFilterFunc
  * Method:    blockFilter
  * Signature: ([III)[I
-
+*/
 JNIEXPORT jintArray JNICALL Java_net_alhazmy13_imagefilter_NativeFilterFunc_blockFilter
   (JNIEnv *, jclass, jintArray, jint, jint);
- */
+
 /*
  * Class:     cn_Ragnarok_NativeFilterFunc
  * Method:    motionBlurFilter
