@@ -1,7 +1,9 @@
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/4659608/13037638/90bc848c-d396-11e5-98d0-572a3e902576.png">
 </p>
+
 # Image Filters
+
 ![](https://img.shields.io/badge/Platform-Android-brightgreen.svg)
 ![](https://img.shields.io/crates/l/rustc-serialize.svg)
 ![](https://img.shields.io/badge/version-0.1.2_beta-blue.svg)
