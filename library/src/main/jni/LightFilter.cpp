@@ -30,8 +30,8 @@ int* LightFilter::procImage() {
 	float strength = 150;
 	int pos = 0;
 
-	for (int i = 1; i < height - 1; i++) {
-		for (int k = 1; k < width - 1; k++) {
+	for (int i = 0; i < height; i++) {
+		for (int k = 0; k < width; k++) {
 			pos = i * width + k;
 			if (pos < width * height) {
 				Color pixelColor = Color(pixels[pos]);
